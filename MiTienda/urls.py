@@ -18,6 +18,8 @@ from django.urls import path,include
 from django.conf import settings
 from django.conf.urls.static import static
 import os
+from decouple import config
+
 urlpatterns = [
     path('servicios/',include('ServiciosApp.urls')),
     path('blog/',include('BlogApp.urls')),
@@ -26,7 +28,7 @@ urlpatterns = [
     path('',include('MiTiendaApp.urls')),
     
 ]
-if os.environ.get('ENABLE_ADMIN', 'False').lower() == 'true':
+if config('ENABLE_ADMIN', default=False, cast=bool):
     urlpatterns.append(
         path('admin/', admin.site.urls)
     )
