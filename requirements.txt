@@ -13,3 +13,4 @@ whitenoise
 python-decouple
 dj-database-url
 psycopg[binary]>=3.2
+django-storages[s3] pillow
