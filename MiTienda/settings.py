@@ -63,12 +63,14 @@ STORAGES = {
     "default": {
         "BACKEND": "storages.backends.s3.S3Storage",
         "OPTIONS": {
-            "access_key": AWS_ACCESS_KEY_ID,
-            "secret_key": AWS_SECRET_ACCESS_KEY,
-            "bucket_name": AWS_STORAGE_BUCKET_NAME,
-            "region_name": AWS_S3_REGION_NAME,
-            "signature_version": "s3v4",
-            "querystring_auth": True,
+		    "access_key": AWS_ACCESS_KEY_ID,
+		    "secret_key": AWS_SECRET_ACCESS_KEY,
+		    "bucket_name": AWS_STORAGE_BUCKET_NAME,
+		    "region_name": AWS_S3_REGION_NAME,
+		    "endpoint_url": "https://s3.us-east-2.amazonaws.com",
+		    "addressing_style": "virtual",
+		    "signature_version": "s3v4",
+		    "querystring_auth": True,
         },
     },
 
