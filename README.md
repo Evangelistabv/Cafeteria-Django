@@ -1,6 +1,8 @@
-# Mi Tienda — Proyecto de aprendizaje con Django
+# Cafetería — Proyecto de aprendizaje con Django
 
-Aplicación web desarrollada con Python y Django que reúne un catálogo de productos, un carrito de compras, un blog, una sección de servicios y un formulario de contacto.
+Aplicación web desarrollada con Python y Django cuya presentación visual final está orientada a una **cafetería**. Reúne un catálogo de productos, un carrito de compras, un blog, una sección de servicios y un formulario de contacto.
+
+**[Ver la cafetería en Render](https://primera-pagina-d8so.onrender.com/)**
 
 Este proyecto forma parte de mi aprendizaje de desarrollo web. Lo construí desde cero siguiendo cursos de YouTube como guía y poniendo en práctica la organización de aplicaciones, el manejo de datos y la lógica del servidor con Django.
 
@@ -8,7 +10,7 @@ Este proyecto forma parte de mi aprendizaje de desarrollo web. Lo construí desd
 
 Implementé personalmente la lógica del proyecto desde cero durante el proceso de aprendizaje: modelos, vistas, rutas, formularios y comportamiento del backend, apoyándome en los cursos y en las herramientas del framework.
 
-Posteriormente utilicé inteligencia artificial como apoyo para modificar el frontend y mejorar su presentación visual. Esa ayuda se centró en la interfaz. El proyecto mantiene su funcionamiento dinámico con Django.
+Posteriormente utilicé inteligencia artificial como apoyo para modificar el frontend y adaptar su presentación visual a una cafetería. Esa fue la apariencia elegida para la versión desplegada en Render. La asistencia se centró en la interfaz; el proyecto mantiene la lógica del backend que desarrollé durante el aprendizaje y su funcionamiento dinámico con Django.
 
 ## Funcionalidades
 
@@ -131,7 +133,9 @@ El formulario utiliza un servidor SMTP. Antes de probar el envío, revisa `EMAIL
 
 ## Despliegue
 
-Desplegué el proyecto en **Render** como parte del proceso de aprendizaje, llevando la aplicación desde el entorno local a un servicio de alojamiento web.
+Desplegué el proyecto en **Render** como parte del proceso de aprendizaje, llevando la aplicación desde el entorno local a un servicio de alojamiento web. La versión publicada presenta el proyecto visualmente como una cafetería.
+
+**[Abrir la aplicación desplegada](https://primera-pagina-d8so.onrender.com/)**
 
 ## Estado del proyecto
 
