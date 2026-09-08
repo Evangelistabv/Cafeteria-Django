@@ -7,6 +7,8 @@ from TiendaApp.models import Producto
 
 def tienda(request):
     productos = Producto.objects.filter(disponibilidad=True).order_by("id")
+    for p in Producto.objects.all():
+        print(p.id, p.nombre, p.imagen, p.imagen.url if p.imagen else "SIN IMAGEN")
     carro = Carro(request)
 
     return render(
